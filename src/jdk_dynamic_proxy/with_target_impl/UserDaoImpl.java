@@ -5,4 +5,9 @@ public class UserDaoImpl implements IUserDao {
     public void saveUser() {
         System.out.println("保存用户________");
     }
+
+    @Override
+    public void sayHello() {
+        System.out.println("hello world!");
+    }
 }
