@@ -4,6 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * 代理无实现类的target
+ */
 public class ProxyFactoryWithoutTargetImpl {
     private Class target;
 
